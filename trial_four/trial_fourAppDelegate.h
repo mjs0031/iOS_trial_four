@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class trial_fourViewController;
+
 @interface trial_fourAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+// modified pointer name
+@property (strong, nonatomic) trial_fourViewController *switch_view_controller;
 
 @end

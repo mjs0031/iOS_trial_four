@@ -7,12 +7,25 @@
 //
 
 #import "trial_fourAppDelegate.h"
+#import "trial_fourViewController.h"
+
 
 @implementation trial_fourAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // amendments
+    self.switch_view_controller = [[trial_fourViewController alloc]
+                                   initWithNibName:@"trial_four" bundle:nil];
+    
+    UIView *switch_view = self.switch_view_controller.view;
+    CGRect switch_view_frame = switch_view.frame;
+    switch_view_frame.origin.y += [UIApplication sharedApplication].statusBarFrame.size.height;
+    switch_view.frame = switch_view_frame;
+    self.window.rootViewController = self.switch_view_controller;
+    
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

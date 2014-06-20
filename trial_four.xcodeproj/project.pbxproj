@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E836CD31954834700605460 /* trial_fourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E836CD21954834700605460 /* trial_fourViewController.m */; };
+		0E836CD61954838800605460 /* trial_four_blueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E836CD51954838800605460 /* trial_four_blueViewController.m */; };
+		0E836CD9195483A000605460 /* trial_four_yellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E836CD8195483A000605460 /* trial_four_yellowViewController.m */; };
+		0E836CDB195483E200605460 /* trial_four.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E836CDA195483E200605460 /* trial_four.xib */; };
+		0E836CDD1954841500605460 /* yellow_view.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E836CDC1954841500605460 /* yellow_view.xib */; };
+		0E836CDF1954842300605460 /* blue_view.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E836CDE1954842300605460 /* blue_view.xib */; };
 		0EF4B6D81944AC3B00DA1ADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4B6D71944AC3B00DA1ADE /* Foundation.framework */; };
 		0EF4B6DA1944AC3B00DA1ADE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4B6D91944AC3B00DA1ADE /* CoreGraphics.framework */; };
 		0EF4B6DC1944AC3B00DA1ADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4B6DB1944AC3B00DA1ADE /* UIKit.framework */; };
@@ -32,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E836CD11954834700605460 /* trial_fourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trial_fourViewController.h; sourceTree = "<group>"; };
+		0E836CD21954834700605460 /* trial_fourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trial_fourViewController.m; sourceTree = "<group>"; };
+		0E836CD41954838800605460 /* trial_four_blueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trial_four_blueViewController.h; sourceTree = "<group>"; };
+		0E836CD51954838800605460 /* trial_four_blueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trial_four_blueViewController.m; sourceTree = "<group>"; };
+		0E836CD7195483A000605460 /* trial_four_yellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trial_four_yellowViewController.h; sourceTree = "<group>"; };
+		0E836CD8195483A000605460 /* trial_four_yellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trial_four_yellowViewController.m; sourceTree = "<group>"; };
+		0E836CDA195483E200605460 /* trial_four.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = trial_four.xib; sourceTree = "<group>"; };
+		0E836CDC1954841500605460 /* yellow_view.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = yellow_view.xib; sourceTree = "<group>"; };
+		0E836CDE1954842300605460 /* blue_view.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = blue_view.xib; sourceTree = "<group>"; };
 		0EF4B6D41944AC3B00DA1ADE /* trial_four.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trial_four.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF4B6D71944AC3B00DA1ADE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0EF4B6D91944AC3B00DA1ADE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,6 +122,15 @@
 		0EF4B6DD1944AC3B00DA1ADE /* trial_four */ = {
 			isa = PBXGroup;
 			children = (
+				0E836CD11954834700605460 /* trial_fourViewController.h */,
+				0E836CD21954834700605460 /* trial_fourViewController.m */,
+				0E836CD41954838800605460 /* trial_four_blueViewController.h */,
+				0E836CD51954838800605460 /* trial_four_blueViewController.m */,
+				0E836CD7195483A000605460 /* trial_four_yellowViewController.h */,
+				0E836CD8195483A000605460 /* trial_four_yellowViewController.m */,
+				0E836CDA195483E200605460 /* trial_four.xib */,
+				0E836CDE1954842300605460 /* blue_view.xib */,
+				0E836CDC1954841500605460 /* yellow_view.xib */,
 				0EF4B6E61944AC3B00DA1ADE /* trial_fourAppDelegate.h */,
 				0EF4B6E71944AC3B00DA1ADE /* trial_fourAppDelegate.m */,
 				0EF4B6E91944AC3B00DA1ADE /* Images.xcassets */,
@@ -220,7 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E836CDB195483E200605460 /* trial_four.xib in Resources */,
 				0EF4B6E21944AC3B00DA1ADE /* InfoPlist.strings in Resources */,
+				0E836CDF1954842300605460 /* blue_view.xib in Resources */,
+				0E836CDD1954841500605460 /* yellow_view.xib in Resources */,
 				0EF4B6EA1944AC3B00DA1ADE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +269,9 @@
 			files = (
 				0EF4B6E41944AC3B00DA1ADE /* main.m in Sources */,
 				0EF4B6E81944AC3B00DA1ADE /* trial_fourAppDelegate.m in Sources */,
+				0E836CD9195483A000605460 /* trial_four_yellowViewController.m in Sources */,
+				0E836CD31954834700605460 /* trial_fourViewController.m in Sources */,
+				0E836CD61954838800605460 /* trial_four_blueViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +468,7 @@
 				0EF4B7021944AC3B00DA1ADE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EF4B7031944AC3B00DA1ADE /* Build configuration list for PBXNativeTarget "trial_fourTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +477,7 @@
 				0EF4B7051944AC3B00DA1ADE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
